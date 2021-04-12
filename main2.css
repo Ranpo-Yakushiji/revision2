@@ -1,0 +1,24 @@
+body{
+  background-color: #3b5998;
+  color: white;
+
+
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+.word{
+  text-align: center;
+  color: white;
+}
+.fo{
+float: left;
+margin-left: 400px;
+}
+.fo2{
+  float: right;
+  margin-bottom: 10px;
+}

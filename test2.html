@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Fakebook</title>
+        <link rel="stylesheet" href="main2.css">
+        <script>
+function resetForm() {
+    document.getElementById("myForm").reset();
+}
+
+function myFunction() {
+  alert("Thank you");
+}
+</script>
+    </head>
+
+    <body>
+      <div class="bak">
+
+          <img class="center" src="fakebook.jpg" alt="logo" width="50%">
+          </div>
+
+<div class="word">
+
+
+<h1<strong>Registration<strong></h1>
+<p><strong>It is safe and it will always be !</strong></p>
+
+</div>
+
+
+<div class="fo">
+  <form class="inf" method="post" id="myForm">
+      <fieldset>
+
+          <legend>None-Important Information</legend>
+          <div class="for">
+          <input type="text" name="name" placeholder="First Name" id="name">
+          <input type="text" name="name" placeholder="Last Name" id="name">
+          <br>
+          <input type="email" name="name" placeholder="Your Email" id="name">
+          <input type="text" name="name" placeholder="Phone Number" id="name">
+          <br>
+          <br>
+          <input type="text" name="name" placeholder="Your Password" id="name">
+          <input type="text" name="name" placeholder="Website" id="name">
+</div>
+<br>
+Birthday
+<br>
+<div>
+          <input type="datetime-local" >
+
+        </div>
+
+<div class="choose">
+
+  <input type="radio" name="where" value="Here" id="here">
+  <label for="here">Female</label>
+
+  <input type="radio" name="where" value="To Go" id="To Go">
+  <label for="To Go">Male</label>
+
+  <input type="radio" name="where" value="To Go" id="To Go">
+  <label for="To Go">Other</label>
+</div>
+
+      </fieldset>
+      <br>
+       <button type="button" onclick="resetForm();">Clear Form</button>
+
+  </form>
+
+</div>
+
+<div class="fo2">
+  <fieldset>
+          <legend>None-Important Information</legend>
+
+<div class="brow">
+
+           <input list="browsers" name="browser" id="browser" placeholder="Country">
+          <datalist id="browsers">
+  <option value="Malaysia">
+  <option value="Singapore">
+  <option value="England">
+  <option value="Thailand">
+  <option value="Taiwan">
+</datalist>
+
+</div>
+
+
+          <input type="text" name="name" placeholder="Village" id="name">
+          <input type="text" name="name" placeholder="District" id="name">
+          <br>
+          <input type="text" name="name" placeholder="Street" id="name">
+          <input type="text" name="name" placeholder="Nr" id="name">
+          <input type="text" name="name" placeholder="Floor" id="name">
+          <input type="text" name="name" placeholder="Ap Nr" id="name">
+        <br>
+        Door color
+        <input type="color" name="name" placeholder=colour">
+        <input type="text" name="name" placeholder="Water meter NR" id="name">
+        <div>
+
+                     <input list="browsers" name="browser" id="browser" placeholder="Materials">
+                    <datalist id="browsers">
+            <option value="Wood">
+            <option value="Iron">
+            <option value="Glass">
+            <option value="Plastic">
+
+          </datalist>
+        </div>
+
+        More personal Information
+
+        <br>
+         <textarea name="Comment">
+
+         </textarea>
+
+  </fieldset>
+  <br>
+<button onclick="myFunction()" class="bt">Register</button>
+
+  </div>
+    </body>
+</html>
